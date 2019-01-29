@@ -29,7 +29,7 @@
       "pinVersions": false,
       "prConcurrentLimit": 1,
       "schedule": [
-        "after 1am and before 6am every weekday"
+        "before 7am on the first day of the month"
       ],
       "packageRules": [
         {
@@ -44,7 +44,7 @@
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "before 9am on the first day of the month"
+          "before 7am on the first day of the month"
         ]
       }
     }
