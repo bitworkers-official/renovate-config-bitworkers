@@ -22,9 +22,31 @@
     "default": {
       "extends": [
         "config:base",
-        ":skipStatusChecks"
+        "default:skipStatusChecks",
+        "default:timezone(Europe/Berlin)"
       ],
-      "automerge": true
+      "automerge": true,
+      "pinVersions": false,
+      "prConcurrentLimit": 1,
+      "schedule": [
+        "after 1am and before 6am every weekday"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "eslint",
+            "tslint",
+            "prettier"
+          ],
+          "groupName": "eslint & prettier"
+        }
+      ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          "before 9am on the first day of the month"
+        ]
+      }
     }
   }
 }
