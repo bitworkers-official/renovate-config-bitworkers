@@ -6,7 +6,7 @@
 
 # renovate-config-bitworkers
 
-Renovate configuration for Bitworkers... Feel free to use this!
+> Renovate configuration for Bitworkers... Feel free to use this!
 
 ## Usage
 
