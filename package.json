@@ -1,0 +1,30 @@
+{
+  "name": "renovate-config-bitworkers",
+  "version": "0.0.0-semantically-released",
+  "description": "Renovate configuration for Bitworkers",
+  "main": "package.json",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "renovate-config"
+  ],
+  "author": "Bitworkers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitworkers-official/renovate-config-bitworkers.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":skipStatusChecks"
+      ],
+      "automerge": true
+    }
+  }
+}
