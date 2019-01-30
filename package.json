@@ -22,14 +22,13 @@
     "default": {
       "extends": [
         "config:base",
-        "default:skipStatusChecks",
         "default:timezone(Europe/Berlin)"
       ],
       "automerge": true,
       "pinVersions": false,
       "prConcurrentLimit": 1,
       "schedule": [
-        "before 7am on the first day of the month"
+        "before 7am every weekday"
       ],
       "packageRules": [
         {
