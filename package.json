@@ -3,9 +3,6 @@
   "version": "0.0.0-semantically-released",
   "description": "Renovate configuration for Bitworkers",
   "main": "package.json",
-  "scripts": {
-    "semantic-release": "semantic-release"
-  },
   "keywords": [
     "renovate-config"
   ],
@@ -29,18 +26,6 @@
       "prConcurrentLimit": 1,
       "schedule": [
         "before 7am every weekday"
-      ],
-      "packageRules": [
-        {
-          "packagePatterns": [
-            "eslint",
-            "tslint",
-            "prettier",
-            "lint-staged",
-            "husky"
-          ],
-          "groupName": "eslint & prettier"
-        }
       ],
       "lockFileMaintenance": {
         "enabled": true,
