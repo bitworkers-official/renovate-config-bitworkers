@@ -22,9 +22,6 @@
         "default:timezone(Europe/Berlin)"
       ],
       "automerge": true,
-      "major": {
-        "automerge": true
-      },
       "pinVersions": false,
       "prConcurrentLimit": 1,
       "schedule": [
