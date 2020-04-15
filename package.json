@@ -25,7 +25,7 @@
       "pinVersions": false,
       "prConcurrentLimit": 1,
       "schedule": [
-        "before 7am every weekday"
+        "before 6am every weekday"
       ],
       "lockFileMaintenance": {
         "enabled": true,
