@@ -18,7 +18,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base",
+        "config:base"
       ],
       "timezone": "DE",
       "automerge": true,
