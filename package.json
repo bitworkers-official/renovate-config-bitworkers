@@ -19,8 +19,8 @@
     "default": {
       "extends": [
         "config:base",
-        "default:timezone(Europe/Berlin)"
       ],
+      "timezone": "DE",
       "automerge": true,
       "pinVersions": false,
       "prConcurrentLimit": 1,
