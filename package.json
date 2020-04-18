@@ -13,7 +13,7 @@
     "url": "https://github.com/bitworkers-official/renovate-config-bitworkers.git"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^17.0.6"
   },
   "renovate-config": {
     "default": {
@@ -24,14 +24,9 @@
       "automerge": true,
       "pinVersions": false,
       "prConcurrentLimit": 1,
-      "schedule": [
-        "before 6am every weekday"
-      ],
+      "schedule": "before 3am on the first day of the month",
       "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": [
-          "before 7am on the first day of the month"
-        ]
+        "enabled": false
       }
     }
   }
