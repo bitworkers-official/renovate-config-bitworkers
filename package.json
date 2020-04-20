@@ -24,7 +24,7 @@
       "automerge": true,
       "pinVersions": false,
       "prConcurrentLimit": 1,
-      "schedule": "before 3am on the first day of the month",
+      "schedule": ["before 3am on the first day of the month"],
       "lockFileMaintenance": {
         "enabled": false
       }
