@@ -13,7 +13,7 @@
     "url": "https://github.com/bitworkers-official/renovate-config-bitworkers.git"
   },
   "devDependencies": {
-    "semantic-release": "^17.0.6"
+    "semantic-release": "^19.0.3"
   },
   "renovate-config": {
     "default": {
